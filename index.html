@@ -1,0 +1,323 @@
+<html>
+<head>
+    <title>prototype of nigeria covid   </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<header>
+    <nav class="navbar navbar-style">
+    <div class="container">
+        
+           
+        <div class="navbar-header">
+                <div class="row">
+                        <div class="images column" id="flags1">
+       <img src="flag.png" height="100" width="900" class="center"> 
+ </div>
+
+</div>
+</div>
+
+
+</div>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-10" >
+                <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+</header>
+<div class="container">
+    <div class="column">
+        <div class="row">
+            <div class="col-md-2" class="tweet">
+                    <a class="twitter-timeline" href="https://twitter.com/NCDCgov" data-tweet-limit="2" data-theme="dark" data-height="50" overflow:auto;></a>
+                    <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    
+            </div>
+<div class="col-md-8"   >
+<div class="container" id="boxex" >
+    <div class="box">Sample tested<br>15,759</div>
+    <div class="box">confirmed cases<br>1,932</div>
+    <div class="box">active cases<br>1,555</div>
+    <div class="box">discharged cases<br>319</div>
+    <div class="box">death<br>58</div>
+</div>
+
+
+
+
+<table class="table">
+<thead>
+<th>States Affected</th>
+<th>No. of Cases(Lab Confirmed)</th>
+<th>No. of Cases(on admisssion)</th>
+<th>No. Discharged</th>
+<th>No. Of Death</th>
+</thead>
+
+<tbody>
+    <tr>
+        <td data-label="States Affected">Lagos</td>
+        <td data-label="No. of Cases(Lab Confirmed)">976</td>
+        <td data-label="No. of Cases(on admisssion)">756</td>
+        <td data-label="No. Discharged">199</td>
+        <td data-label="No. Of Death">21</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">kano</td>
+        <td data-label="No. of Cases(Lab Confirmed)">219</td>
+        <td data-label="No. of Cases(on admisssion)">216</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">3</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">FCT</td>
+        <td data-label="No. of Cases(Lab Confirmed)">178</td>
+        <td data-label="No. of Cases(on admisssion)">139</td>
+        <td data-label="No. Discharged">36</td>
+        <td data-label="No. Of Death">3</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">Gombe</td>
+        <td data-label="No. of Cases(Lab Confirmed)">76</td>
+        <td data-label="No. of Cases(on admisssion)">76</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">borno</td>
+        <td data-label="No. of Cases(Lab Confirmed)">66</td>
+        <td data-label="No. of Cases(on admisssion)">60</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">ogun</td>
+        <td data-label="No. of Cases(Lab Confirmed)">56</td>
+        <td data-label="No. of Cases(on admisssion)">47</td>
+        <td data-label="No. Discharged">8</td>
+        <td data-label="No. Of Death">1</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">edo</td>
+        <td data-label="No. of Cases(Lab Confirmed)">44</td>
+        <td data-label="No. of Cases(on admisssion)">31</td>
+        <td data-label="No. Discharged">10</td>
+        <td data-label="No. Of Death">3</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">kastina</td>
+        <td data-label="No. of Cases(Lab Confirmed)">40</td>
+        <td data-label="No. of Cases(on admisssion)">38</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">2</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">bauchi</td>
+        <td data-label="No. of Cases(Lab Confirmed)">38</td>
+        <td data-label="No. of Cases(on admisssion)">32</td>
+        <td data-label="No. Discharged">6</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">sokoto</td>
+        <td data-label="No. of Cases(Lab Confirmed)">36</td>
+        <td data-label="No. of Cases(on admisssion)">31</td>
+        <td data-label="No. Discharged">1</td>
+        <td data-label="No. Of Death">4</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">kaduna</td>
+        <td data-label="No. of Cases(Lab Confirmed)">40</td>
+        <td data-label="No. of Cases(on admisssion)">38</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">2</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">osun</td>
+        <td data-label="No. of Cases(Lab Confirmed)">34</td>
+        <td data-label="No. of Cases(on admisssion)">13</td>
+        <td data-label="No. Discharged">18</td>
+        <td data-label="No. Of Death">3</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">oyo</td>
+        <td data-label="No. of Cases(Lab Confirmed)">23</td>
+        <td data-label="No. of Cases(on admisssion)">12</td>
+        <td data-label="No. Discharged">9</td>
+        <td data-label="No. Of Death">9</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">akwa ibom</td>
+        <td data-label="No. of Cases(Lab Confirmed)">16</td>
+        <td data-label="No. of Cases(on admisssion)">4</td>
+        <td data-label="No. Discharged">10</td>
+        <td data-label="No. Of Death">2</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">rivers</td>
+        <td data-label="No. of Cases(Lab Confirmed)">13</td>
+        <td data-label="No. of Cases(on admisssion)">9</td>
+        <td data-label="No. Discharged">2</td>
+        <td data-label="No. Of Death">2</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">kwara</td>
+        <td data-label="No. of Cases(Lab Confirmed)">11</td>
+        <td data-label="No. of Cases(on admisssion)">9</td>
+        <td data-label="No. Discharged">2</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">delta</td>
+        <td data-label="No. of Cases(Lab Confirmed)">9</td>
+        <td data-label="No. of Cases(on admisssion)">3</td>
+        <td data-label="No. Discharged">4</td>
+        <td data-label="No. Of Death">2</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">ondo</td>
+        <td data-label="No. of Cases(Lab Confirmed)">9</td>
+        <td data-label="No. of Cases(on admisssion)">6</td>
+        <td data-label="No. Discharged">3</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">taraba</td>
+        <td data-label="No. of Cases(Lab Confirmed)">8</td>
+        <td data-label="No. of Cases(on admisssion)">0</td>
+        <td data-label="No. Discharged">0</td>
+        <td data-label="No. Of Death">0</td>
+    </tr>
+    <tr>
+        <td data-label="States Affected">ekiti</td>
+        <td data-label="No. of Cases(Lab Confirmed)">8</td>
+        <td data-label="No. of Cases(on admisssion)">5</td>
+        <td data-label="No. Discharged">2</td>
+        <td data-label="No. Of Death">1</td>
+        <tr>
+            <td data-label="States Affected">jigawa</td>
+            <td data-label="No. of Cases(Lab Confirmed)">7</td>
+            <td data-label="No. of Cases(on admisssion)">6</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">1</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">bayelsa</td>
+            <td data-label="No. of Cases(Lab Confirmed)">5</td>
+            <td data-label="No. of Cases(on admisssion)">5</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">zamfara</td>
+            <td data-label="No. of Cases(Lab Confirmed)">4</td>
+            <td data-label="No. of Cases(on admisssion)">3</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">1</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">enugu</td>
+            <td data-label="No. of Cases(Lab Confirmed)">3</td>
+            <td data-label="No. of Cases(on admisssion)">1</td>
+            <td data-label="No. Discharged">2</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">nasarawa</td>
+            <td data-label="No. of Cases(Lab Confirmed)">3</td>
+            <td data-label="No. of Cases(on admisssion)">3</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">niger</td>
+            <td data-label="No. of Cases(Lab Confirmed)">2</td>
+            <td data-label="No. of Cases(on admisssion)">2</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">abia</td>
+            <td data-label="No. of Cases(Lab Confirmed)">2</td>
+            <td data-label="No. of Cases(on admisssion)">2</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">adamawa</td>
+            <td data-label="No. of Cases(Lab Confirmed)">2</td>
+            <td data-label="No. of Cases(on admisssion)">2</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">kebbi</td>
+            <td data-label="No. of Cases(Lab Confirmed)">2</td>
+            <td data-label="No. of Cases(on admisssion)">2</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">ebonyi</td>
+            <td data-label="No. of Cases(Lab Confirmed)">2</td>
+            <td data-label="No. of Cases(on admisssion)">2</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">imo</td>
+            <td data-label="No. of Cases(Lab Confirmed)">1</td>
+            <td data-label="No. of Cases(on admisssion)">1</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+       
+        <tr>
+            <td data-label="States Affected">plateau</td>
+            <td data-label="No. of Cases(Lab Confirmed)">1</td>
+            <td data-label="No. of Cases(on admisssion)">1</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">anambra</td>
+            <td data-label="No. of Cases(Lab Confirmed)">1</td>
+            <td data-label="No. of Cases(on admisssion)">0</td>
+            <td data-label="No. Discharged">1</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        <tr>
+            <td data-label="States Affected">yobe</td>
+            <td data-label="No. of Cases(Lab Confirmed)">1</td>
+            <td data-label="No. of Cases(on admisssion)">1</td>
+            <td data-label="No. Discharged">0</td>
+            <td data-label="No. Of Death">0</td>
+        </tr>
+        
+    </tr>
+</tbody>
+</table>
+
+
+
+
+<script type="text/javascript" src="mapdata.js"></script>		
+<script  type="text/javascript" src="countrymap.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

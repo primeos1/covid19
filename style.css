@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header
+{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#maps{
+    float: right;
+    text-align: center;
+}
+#boxex{
+    width: 100%;
+    height: auto;
+    background: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    box-shadow: 0 5px 10px #efefef;
+  margin-left: 100px;
+}
+.table{margin-left: 100px;
+   
+}
+.total{
+    margin-left: 100px;
+}
+.box{
+    width: auto;
+    height: auto;
+    background: limegreen;
+    margin:20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: 1s;
+    box-shadow: 0 5px 10px black;
+}
+.box:hover{
+    box-shadow: 2px 5px 10px black;
+    transform:scale(1.7);
+    background: red;
+    z-index: 2;
+}
