@@ -26,14 +26,35 @@
 
 </div>
 <div class="container">
+    <div class="column">
     <div class="row">
         
-        <div class="col-md-10" >
+        <div class="col-md-4" class="mapd" >
                 <div id="map"></div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-8" class="leg">
+                <style type="text/css">
+                    .legend{color: black; width: 500px; font-family: arial; font-size: 14px;}    
+                    .legend_color {display: table; width: 100%; background: white; list-style: none; margin: 0px; padding: 0px; }
+                    .legend_color li{width: 20%;  height: 20px; display: table-cell;}
+                    .legend_label {display: table; width: 100%;  padding: 0px; padding-left: 10%; padding-right: 10%; list-style: none; margin: 0px; box-sizing: border-box;}
+                    .legend_label li{width: 25%;  height: 20px; display: table-cell; text-align: center;}
+                    </style>
+                    <div class="legend">
+                      <ul class="legend_label">
+                        <li>0-15</li><li>16-100</li><li>101-300</li><li>301-900</li><li>1000+</li>
+                      </ul>
+                      <ul class="legend_color">
+                        <li style="background-color: #fc655d"></li><li style="background-color: #fb352b"></li><li style="background-color: #ee1005"></li><li style="background-color: #bc0d04"></li><li style="background-color: #8a0903"></li>
+                      </ul>
+                    </div>
+            
+        </div>
+    </div>
 </div>
-
+</div>
 </header>
 <div class="container">
     <div class="column">
